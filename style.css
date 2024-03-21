@@ -69,6 +69,13 @@ main {
     height: 20px;
 }
 
+.course span {
+    display: block;
+    text-align: center;
+    transform: rotateZ(-6deg);
+    color: #333;
+}
+
 main h1 {
     font-weight: 400;
     text-align: center;
@@ -82,12 +89,6 @@ main h2 {
     text-align: center;
     font-size: 16px;
     color: #333;
-}
-
-.gap {
-    height: 2000px;
-    width: 200px;
-    background-color: blueviolet;
 }
 
 main .opinion {
