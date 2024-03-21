@@ -1,0 +1,113 @@
+:root {
+    --red: rgb(218, 39, 39);
+}
+
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+.bg div {
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
+}
+
+.bg div:nth-child(1) {
+    width: 50vw;
+    height: 100vh;
+
+    background-color: black;
+}
+
+.bg div:nth-child(2) {
+    width: 50vw;
+    height: 100vh;
+    
+    background-color: var(--red);
+
+    left: 50%;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 92vh;
+    min-height: 92vh;
+
+    z-index: 1;
+
+    top: 3vh;
+    left: 3vh;
+    background-color: white;
+    border-radius: 25px;
+
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.close {
+    background-color: #e4e4e4;
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+    padding: 10px 10px;
+
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.close img {
+    width: 20px;
+    height: 20px;
+}
+
+main h1 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 30px;
+
+    margin-top: 30px;
+}
+
+main h2 {
+    font-weight: 800;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+
+.gap {
+    height: 2000px;
+    width: 200px;
+    background-color: blueviolet;
+}
+
+main .opinion {
+    margin-top: 20px !important;
+    font-size: 14px;
+
+    max-width: 300px;
+
+    margin: auto auto;
+}
+
+main .chat-bubble {
+
+    padding: 12px 7px 12px 7px;
+    border-radius: 10px;
+
+    width: fit-content;
+    background-color: #e4e4e4;
+
+    text-align: center;
+
+    margin: 9px auto;
+}
